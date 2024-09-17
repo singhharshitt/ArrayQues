@@ -106,3 +106,55 @@ Output 2 :<br>
 196 196 196 <br>
 142 142 142 <br>
 201 201 201 <br>
+<br>
+<br>
+
+<b>Q3.Rina is managing the inventory for a library, where each row of a 2D matrix represents the number of different genres of books available on each shelf. To get a better overview, she wants to replace each number in a row with the sum of all numbers in that row. </b>
+<br>
+<br>
+
+Write a program to help Rina transform the matrix accordingly.<br>
+
+Input format :<br>
+The first line of input consists of an integer T, representing the number of test cases.<br>
+
+For each test case:<br>
+
+The first line contains two integers R and C, representing the number of rows and columns.<br>
+The next R lines each contain C space-separated integers, representing the count of books of a specific genre on a shelf.<br>
+Output format :
+For each test case, the output prints the transformed 2D matrix where each element in a row is replaced with the sum of the elements in that row.<br>
+
+
+Sample test cases :<br>
+<br>
+Input 1 :<br>
+2 <br>
+3 4<br>
+8 2 4 9<br>
+4 5 6 1<br>
+7 8 9 3<br>
+2 5<br>
+1 2 3 5 7<br>
+3 4 8 9 6<br>
+<br>
+Output 1 :<br>
+23 23 23 23 <br>
+16 16 16 16 <br>
+27 27 27 27 <br>
+18 18 18 18 18 <br>
+30 30 30 30 30 <br>
+<br>
+Input 2 :<br>
+1<br>
+3 3 <br>
+48 65 83 <br>
+45 21 76 <br>
+71 32 98 <br>
+<br>
+Output 2 :<br>
+196 196 196 <br>
+142 142 142 <br>
+201 201 201 <br>
+<br>
+<br>
